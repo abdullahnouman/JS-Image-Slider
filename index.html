@@ -4,25 +4,6 @@
 	<title>Image Slider</title>
 </head>
 <body>
-	<img name="slider" width="100%">
-	<script type="text/javascript">
-		var i =0;
-		var images=[];
-		var time=3000;
-		images[0] = 'image1.jpg';
-		images[1] = 'image2.jpg';
-		images[2] = 'image3.jpg';
-
-		function changeImage(){
-			document.slider.src=images[i];
-			if(i<images.length-1){
-				i++;
-			} else{
-				i=0;
-			}
-			setTimeout(changeImage,time);
-		}
-		window.onload = changeImage;
-	</script>
+	<img name="slider" width = "50%" height = "30%" alt="Image Slidshow">
 </body>
 </html>
